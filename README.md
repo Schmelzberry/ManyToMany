@@ -1,10 +1,19 @@
-## What Is This?
+#### By _Jake Elsberry_
 
-This is an example repo corresponding to multiple lessons within the LearnHowToProgram.com walkthrough on creating a To Do List application in [Section 4: Many-to-Many Relationships](https://www.learnhowtoprogram.com/c-and-net/many-to-many-relationships).
+#### _A C# / ASP.NET Core MVC application using Entity Framework Core and MySQL._
 
-This project corresponds to the classwork and lessons that describe how to connect an ASP.NET Core MVC project to a MySQL database using [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/) with migrations. This project contains a one-to-many relationship between `Item` and `Category`, and a many-to-many relationship between `Item` and `Tag`. There are multiple lessons in this series. The first lesson in the series is [Code First Development and Migrations](https://www.learnhowtoprogram.com/c-and-net-part-time/many-to-many-relationships/code-first-development-and-migrations).
+## Technologies Used
 
-There are multiple branches in this repo that are described more below.
+* C#
+* .NET 6
+* ASP.NET Core MVC
+* Entity Framework Core
+* MySQL
+* MySQL Workbench
+
+## Description
+
+Another To Do List, Go figure!
 
 ## How To Run This Project
 
@@ -33,29 +42,18 @@ Install the tools that are introduced in [this series of lessons on LearnHowToPr
 4. Open the browser to _https://localhost:5001_. If you cannot access localhost:5001 it is likely because you have not configured a .NET developer security certificate for HTTPS. To learn about this, review this lesson: [Redirecting to HTTPS and Issuing a Security Certificate](https://www.learnhowtoprogram.com/lessons/redirecting-to-https-and-issuing-a-security-certificate).
 
 
-## Available Branches
+## Known Bugs
 
-**1_starter_project**: This is the default branch with the starter code for the To Do List project as an ASP.NET Core MVC web application that is configured to use Entity Framework Core to communicate with a MySQL database as completed at the end of section 3. **This branch is not meant to be run using the above instructions, as it is not configured to use EF Core migrations; instead it is meant to be used as a starting point for the refactor we begin in the LHTP lesson [Code First Development and Migrations](https://www.learnhowtoprogram.com/c-and-net-part-time/many-to-many-relationships/code-first-development-and-migrations).**
+* If any bugs are discovered, please contact the author(s).
 
-**2_many_to_many_setup**: This branch includes the code we added after working through the following lessons:
+## License
 
-- https://www.learnhowtoprogram.com/c-and-net/many-to-many-relationships/code-first-development-and-migrations
-- https://www.learnhowtoprogram.com/c-and-net/many-to-many-relationships/many-to-many-relationships-join-entities
+MIT License
 
-**3_m2m_read_and_create**: This branch includes the code we added after working through the following lessons:
+Copyright (c) Jake Elsberry
 
-- https://www.learnhowtoprogram.com/c-and-net/many-to-many-relationships/many-to-many-read-functionality
-- https://www.learnhowtoprogram.com/c-and-net/many-to-many-relationships/many-to-many-create-functionality
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-**4_m2m_update_and_delete**: This branch includes the code we added after working through the following lessons:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-- https://www.learnhowtoprogram.com/c-and-net/many-to-many-relationships/many-to-many-update-functionality
-- https://www.learnhowtoprogram.com/c-and-net/many-to-many-relationships/many-to-many-delete-functionality
-
-**5_model_validation**: This branch includes the code we added after working through the following lesson:
-
-- https://www.learnhowtoprogram.com/c-and-net/many-to-many-relationships/model-validation-with-validation-attributes
-
-**6_data_from_multiple_db_tables**: This branch includes the code we added after working through the following lesson:
-
-- https://www.learnhowtoprogram.com/c-and-net/many-to-many-relationships/creating-a-splash-page-with-data-from-multiple-database-tables
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
