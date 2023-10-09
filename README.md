@@ -13,7 +13,7 @@
 
 ## Description
 
-Another To Do List, Go figure!
+Another To Do List, Go figure! This is still using the ORM EF Core to manipulate SQL databases, specifically many-to-many relationships.
 
 ## How To Run This Project
 
